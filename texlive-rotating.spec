@@ -59,6 +59,7 @@ the rotating and float packages.
 #- source
 %doc %{_texmfdistdir}/source/latex/rotating/rotating.dtx
 %doc %{_texmfdistdir}/source/latex/rotating/rotating.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -69,3 +70,5 @@ the rotating and float packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
