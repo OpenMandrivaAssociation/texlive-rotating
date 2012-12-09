@@ -59,3 +59,17 @@ the rotating and float packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.16b-2
++ Revision: 755724
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.16b-1
++ Revision: 719462
+- texlive-rotating
+- texlive-rotating
+- texlive-rotating
+- texlive-rotating
+
