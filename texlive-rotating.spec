@@ -6,7 +6,7 @@
 # catalog-version 2.16b
 Name:		texlive-rotating
 Version:	2.16b
-Release:	6
+Release:	7
 Summary:	Rotation tools, including rotated full-page floats
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rotating
