@@ -9,7 +9,7 @@ Version:	2.16b
 Release:	12
 Summary:	Rotation tools, including rotated full-page floats
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rotating
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/rotating
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/rotating.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/rotating.doc.tar.xz
